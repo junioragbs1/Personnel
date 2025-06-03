@@ -1,0 +1,60 @@
+:root {
+  --main-color: white;
+  --font-size: 16px;
+  --header-color: black;
+}
+body {
+  background-color: ghostwhite;
+}
+h1 {
+  background-color: black;
+  color: var(--main-color);
+  text-align: center;
+  padding: 15px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--header-color);
+}
+li {
+  list-style: none;
+}
+a {
+  color: var(--main-color);
+  text-decoration: none;
+  cursor: cell;
+}
+a:hover {
+  color: blue;
+}
+h2,
+h3 {
+  text-align: center;
+}
+.Expositions {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+.contact {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  background-color: bisque;
+  padding: 2em;
+  margin: 2em;
+}
+
+footer {
+  background-color: black;
+  color: var(--main-color);
+  text-align: center;
+  padding: 5px;
+}
+.Joconde,
+.Tournesols,
+.Cri {
+  box-shadow: 5px 5px 5px rosybrown;
+  margin: 15px;
+}
